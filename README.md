@@ -1,4 +1,4 @@
-# @aotimme/amplify-rust-function-runtime-provider
+# amplify-rust-arm64-function-runtime-provider
 
 [![npm version](https://img.shields.io/npm/v/amplify-rust-arm64-function-runtime-provider.svg?style=flat-square)](https://www.npmjs.org/package/amplify-rust-arm64-function-runtime-provider)
 
