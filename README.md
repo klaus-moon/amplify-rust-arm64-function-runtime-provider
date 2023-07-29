@@ -19,4 +19,4 @@ amplify plugin scan
 
 After installing this plugin, you will be able to create Lambda functions in Rust. An option for using the `Rust` runtime will be available when using commands like `amplify function add` or `amplidy api add` to create Lambda functions.
 
-NOTE that to actually use the Rust runtime, you will need to install a Rust template provider, such as `@aotimme/amplify-rust-function-template-provider`.
+NOTE that to actually use the Rust runtime, you will need to install a Rust template provider, such as `amplify-rust-function-template-provider`.
