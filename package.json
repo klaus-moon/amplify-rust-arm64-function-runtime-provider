@@ -1,6 +1,6 @@
 {
   "name": "amplify-rust-arm64-function-runtime-provider",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An AWS Amplify plugin to use Rust as an ARM Lambda function runtime",
   "author": "klaus-moon",
   "license": "Apache-2.0",
