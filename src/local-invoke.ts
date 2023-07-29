@@ -1,7 +1,7 @@
 import path from 'path';
 
-import { $TSContext } from 'amplify-cli-core';
-import { BuildType, InvocationRequest } from 'amplify-function-plugin-interface';
+import { $TSContext } from '@aws-amplify/amplify-cli-core';
+import { BuildType, InvocationRequest } from '@aws-amplify/amplify-function-plugin-interface';
 import execa, { ExecaChildProcess } from 'execa';
 import portfinder from 'portfinder';
 

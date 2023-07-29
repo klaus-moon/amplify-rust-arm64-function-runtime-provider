@@ -1,26 +1,27 @@
 {
-  "name": "@aotimme/amplify-rust-function-runtime-provider",
+  "name": "amplify-rust-arm64-function-runtime-provider",
   "version": "0.1.0",
-  "description": "An AWS Amplify plugin to use Rust as a Lambda function runtime",
-  "author": "aotimme",
+  "description": "An AWS Amplify plugin to use Rust as an ARM Lambda function runtime",
+  "author": "klaus-moon",
   "license": "Apache-2.0",
   "main": "lib/index.js",
   "keywords": [
     "aws",
     "amplify",
     "lambda",
-    "rust"
+    "rust",
+    "arm64"
   ],
-  "homepage": "https://github.com/aotimme/amplify-rust-function-runtime-provider",
-  "repository": "aotimme/amplify-rust-function-runtime-provider",
-  "bugs": "https://github.com/aotimme/amplify-rust-function-runtime-provider/issues",
+  "homepage": "https://github.com/klaus-moon/amplify-rust-function-runtime-provider",
+  "repository": "klaus-moon/amplify-rust-function-runtime-provider",
+  "bugs": "https://github.com/klaus-moon/amplify-rust-function-runtime-provider/issues",
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf lib tsconfig.tsbuildinfo"
   },
   "dependencies": {
-    "amplify-cli-core": "2.4.3",
-    "amplify-function-plugin-interface": "1.9.2",
+    "@aws-amplify/amplify-cli-core": "^4.2.3",
+    "@aws-amplify/amplify-function-plugin-interface": "^1.11.0",
     "archiver": "^5.3.0",
     "execa": "^5.1.1",
     "express": "^4.17.1",

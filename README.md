@@ -1,17 +1,18 @@
 # @aotimme/amplify-rust-function-runtime-provider
 
-[![npm version](https://img.shields.io/npm/v/@aotimme/amplify-rust-function-runtime-provider.svg?style=flat-square)](https://www.npmjs.org/package/@aotimme/amplify-rust-function-runtime-provider)
+[![npm version](https://img.shields.io/npm/v/amplify-rust-arm64-function-runtime-provider.svg?style=flat-square)](https://www.npmjs.org/package/amplify-rust-arm64-function-runtime-provider)
 
-This [AWS Amplify plugin](https://docs.amplify.aws/cli/plugins/plugins/) provides the ability to develop Lambda functions in Rust.
+This [AWS Amplify plugin](https://docs.amplify.aws/cli/plugins/plugins/) provides the ability to develop ARM64 Lambda functions in Rust.
 
 ## Installation
 
 To use this plugin, follow the instructions provided by AWS Amplify: https://docs.amplify.aws/cli/plugins/plugins/#plugin-installation
 
 In particular,
+
 ```shell
-npm install --global @aotimme/amplify-rust-function-runtime-provider
-amplify plugin add @aotimme/amplify-rust-function-runtime-provider
+npm install --global amplify-rust-arm64-function-runtime-provider
+amplify plugin scan
 ```
 
 ## Usage

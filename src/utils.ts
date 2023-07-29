@@ -2,7 +2,7 @@ import path from 'path';
 
 import {
   BuildType,
-} from 'amplify-function-plugin-interface';
+} from '@aws-amplify/amplify-function-plugin-interface';
 import execa from 'execa';
 
 import { CARGO_CMD, TARGET_PATH_DEV, TARGET_PATH_PROD } from './constants';

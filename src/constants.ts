@@ -14,7 +14,7 @@ export const RUST_RUNTIME = 'provided.al2';
 export const CARGO_CMD = 'cargo';
 export const DOCKER_CMD = 'docker';
 export const RUSTUP_CMD = 'rustup';
-export const TARGET_NAME_PROD = 'x86_64-unknown-linux-gnu';
+export const TARGET_NAME_PROD = 'aarch64-unknown-linux-gnu';
 
 export const BASE_PORT = 8900;
 export const MAX_PORT = 9999;

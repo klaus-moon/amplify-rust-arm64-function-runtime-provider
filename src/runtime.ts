@@ -5,7 +5,7 @@ import {
   BuildRequest,
   BuildResult,
   BuildType,
-} from 'amplify-function-plugin-interface';
+} from '@aws-amplify/amplify-function-plugin-interface';
 import * as which from 'which';
 import execa from 'execa';
 import archiver from 'archiver';
@@ -125,7 +125,7 @@ const getBuildArgs = (resourceDir: string, buildType: BuildType): BuildArgs => {
 
   // See: https://github.com/awslabs/aws-lambda-rust-runtime
   // In particular, "Building on MacOS Using Docker"
-  const lambdaArch = 'linux/amd64';
+  const lambdaArch = 'linux/arm64';
   const rustVersion = 'latest';
   return {
     command: DOCKER_CMD,

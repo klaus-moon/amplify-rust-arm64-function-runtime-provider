@@ -1,4 +1,4 @@
-import { FunctionRuntimeContributorFactory } from 'amplify-function-plugin-interface';
+import { FunctionRuntimeContributorFactory } from '@aws-amplify/amplify-function-plugin-interface';
 import { checkDependencies, packageResource, buildResource } from './runtime';
 import { localInvoke } from './local-invoke';
 import { MAIN_BINARY, RUST_NAME, RUST_RUNTIME, RUST_SELECTION } from './constants';
